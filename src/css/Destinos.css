@@ -1,0 +1,46 @@
+
+.contenedor-destino {
+    width: 1170px;
+    height: 368px;
+    margin: 10px 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    box-shadow: 0 3px 13px 1px rgb(0 0 0 / 9%);
+    border-radius: 16px;
+}
+
+.imagen-destino {
+    height: 100%;
+    width: auto;
+    float: left;
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+
+}
+
+.hipervinculo-destino {
+    display: block;
+  width: 200px; /* Ancho del hipervínculo */
+  height: 100px; /* Altura del hipervínculo */
+  background-color: rgb(32, 103, 150); /* Color de fondo azul */
+  text-align: center; /* Centrar el contenido del hipervínculo */
+  line-height: 100px; /* Centrar verticalmente el contenido */
+  color: white; /* Color del texto */
+  text-decoration: none; /* Quitar el subrayado del texto del hipervínculo */
+  float: right ;
+  border-radius: 16px;
+}
+
+.box {
+    width: 200px;
+    height: 80px;
+    border-radius: 16px;
+    background: var(--accent);
+    cursor: pointer;
+margin: 2% auto 0 auto;
+align-items: center;
+    justify-content: center;
+  }
+  

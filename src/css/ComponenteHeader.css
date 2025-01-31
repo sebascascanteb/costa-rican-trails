@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Poppins:wght@800&display=swap');
+
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.imagen-logo {
+    width: 262px;
+    height: 170px;
+}
+
+.cabecera {
+    font-family: 'Nanum Pen Script', 'cursive';
+    font-size: 30px;
+}
+
+header nav {
+  
+    width: 90vw;
+    margin: 0 auto;
+    padding: 0 2rem;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+}
+header ul a {
+
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 0 1.5rem;
+    text-transform: uppercase;
+}
+
+.hamburguer {
+    padding-left: 1.5rem;
+}
+
+.hamburguer a {
+    padding: 0;
+    width: 37px;
+    height: 37px;
+    display: flex;
+    border-radius: 50%;
+    background-color: rgba(115, 115, 115, 0.7);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    justify-content: center;
+    align-items: center;
+}
+
+.hamburguer .bar {
+    position: relative;    
+    width: 52%;
+    height: 1.3px;
+    background-color: #fff;
+    border-radius: 2px;
+}
+
+.hamburguer .bar::before, .hamburguer .bar::after{
+    content: "";
+    position: absolute;
+
+    left: 50%;
+    transform: translate(-50%);
+    height: 60%;
+    height: 100%;
+    background-color: inherit;
+    border-radius: 2px;
+}
+
+.hamburguer .bar::before {
+    top: -4.5px;
+}
+
+.hamburguer .bar::after {
+    top: 4.5px;
+}
+
+.lista-menu a{
+    display: flex;
+    margin-top: 55px;
+}

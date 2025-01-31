@@ -1,0 +1,10 @@
+.contenedor-carrusel{
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    float: left;
+}
+img {
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+}
